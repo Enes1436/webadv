@@ -1,0 +1,31 @@
+
+
+h1{
+    color: rgb(0, 195, 255) ;
+    letter-spacing: 40px;
+    word-spacing:30px ;
+}
+p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-indent: 50px;
+   text-align: center;
+}
+h2{text-decoration: overline;color: aqua
+    ;}
+h3{text-decoration: line-through;color: black;}
+h4{text-decoration: underline;color: brown;}
+body{background-color: rgb(170, 77, 108);}
+.p1{color: gold ;
+background-color: deepskyblue;
+text-align: right;}
+
+#p2{font-style: normal;color: bisque;
+font-weight: normal;}
+#p3{font-style: italic;color: bisque;
+font-weight: bold;}
+#p4{font-style: oblique;color: bisque;
+font-weight: 900;}
+a:link{color: black;}
+a:visited{color: blue;}
+a:hover{color: aqua;}
+a:active{color: brown;}
