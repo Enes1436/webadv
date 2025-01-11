@@ -1,0 +1,60 @@
+body{background: linear-gradient(to right, rgb(4, 0, 255), gold);}
+
+/*descended combinator (space)- select elements inside other elements(like a parent and a child) */
+article p{
+background: aqua;
+color: aliceblue;
+padding:20px ;
+}
+
+/*child combinator (>)- select only direct children of a parent element */
+article > p{
+    background: yellow;
+}
+
+article p{
+    background: lightblue;
+}
+
+/* general sibling combinator ( ~ ) - selects all siblings after an element */
+article ~ p{
+    background:burlywood ;
+color: aquamarine;
+padding: 20px;
+}
+
+/* adjacent sibling combinator (+) - selects the next siblings after an element */
+article + p{
+    background:greenyellow ;
+}
+
+/* first-child - pseudo class we use it when we want to style the first element */
+h1:first-child {
+background-color: aqua;
+color: blueviolet;
+padding: 10px;
+}
+
+input{
+  width: 50px;  
+}
+
+input:in-range{
+    border: 3px solid green;
+}
+
+input:out-of-range{
+    border: 3px solid blue;
+}
+
+input:required { 
+    background-color: blue;
+}
+
+input:focus { 
+    background-color:gold
+}
+
+input[name="name"]:valid { 
+    border: 1px solid green;
+}
