@@ -1,0 +1,52 @@
+body{background: linear-gradient(to right, rgb(4, 0, 255), gold);}
+div#static{
+position:static ;
+border:2px solid black ;
+width:250px ;
+height:250px ;
+padding:20px ;
+}
+div#relativ{
+position:relative ;
+border:2px solid black ;
+width:250px ;
+height:250px ;
+padding:20px ;
+
+}
+div#fixed{
+position:fixed ;
+border:2px solid black ;
+width:250px ;
+height:250px ;
+padding:20px ;
+right: 200px; ;
+top: 100px; ;
+}
+div#parent{
+position:relative ;
+border:2px solid black ; ;
+width: 250px; ;
+height: 250px; ;
+top: 100px; ;
+}
+div#absolute{
+position:absolute ;
+width: 100px; ;
+height: 100px; ;
+background-color: aquamarine;
+right: 80px; ;
+top: 70px; ;
+color: blue;
+}
+div#sticky{
+position:sticky ;
+top:0 ;
+background-color: brown;
+color: antiquewhite;
+padding: 20px;
+}
+
+
+
+
