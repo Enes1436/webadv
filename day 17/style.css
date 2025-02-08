@@ -1,29 +1,20 @@
-a[href="https://digitalschool.eu/ "]{
-color: brown;
+.dropdown{
+position: relative;
+display:inline-block ;
 }
-p[class*="ds"] {
-  background: blue; 
-  color: aqua;
-padding: 20px;
- }
+.dropdown-content{
+display: ;
+position: ;
+background-color: brown;
+min-width: ;
+ box-shadow:0px 8px 16px rgba(0,0,0,0.2)
+padding:12px 16px ;
+z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+
+}
 
 
-div[id~="ds"]{
-background: blue;
-    color: red;
-padding:20px
-}
-img[title^="blue"]{
-    border: 2px solid blue;
-}
-h1[class|="heading"]{
-background:purple ;
-color: blueviolet;
-padding: 20px;
-}
-input[placeholder $="name"]{
-    border: 2px solid blue;
-}
-input[reandonly]{
-    border: 2px solid gold;
-}
+
