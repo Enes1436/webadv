@@ -1,0 +1,132 @@
+body{
+    background: linear-gradient(to right, rgb(4, 0, 255), gold);
+}
+.container{
+background-color: rgb(240, 219, 128);
+border: 5px solid red;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap-reverse;
+}
+.container div{
+background-color: white;
+border: 5px solid darkblue;
+margin: 10px  ;
+padding:20px ;
+font-size: 35px;
+width: 100px ;
+height: 35px ;
+}
+.container div:nth-child(1){
+    flex-grow: 8;
+}
+.container div:nth-child(2){
+    order: 3;
+}
+.container div:nth-child(3){
+    flex-grow: 8;
+}
+.container div:nth-child(4){
+    order: 1;
+}
+.container2{
+    background-color: rgb(180, 128, 240);
+    border: 5px solid orange;
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    .container2 div{
+        background-color: white;
+        border: 5px solid rgb(0, 139, 132);
+        margin: 10px  ;
+        padding:20px ;
+        font-size: 35px;
+        width: 100px ;
+        height: 35px ;
+        }
+        .container3{
+            background-color: rgb(137, 240, 128);
+            border: 5px solid rgb(0, 183, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            }
+            .container3 div{
+                background-color: white;
+                border: 5px solid rgb(139, 63, 0);
+                margin: 10px  ;
+                padding:20px ;
+                font-size: 35px;
+                width: 100px ;
+                height: 35px ;
+                }
+                .container4{
+                    background-color: rgb(240, 128, 225);
+                    border: 5px solid rgb(76, 0, 255);
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    height: 200px;
+                    }
+                    .container4 div{
+                        background-color: white;
+                        border: 5px solid rgb(139, 0, 0);
+                        margin: 10px  ;
+                        padding:20px ;
+                        font-size: 35px;
+                        width: 100px ;
+                        height: 50px ;
+                        }
+
+                    .container4 div:nth-child(2){
+                        align-self:flex-end ;
+                    }
+                    .container5{
+                        background-color: rgb(240, 232, 128);
+                        border: 5px solid rgb(255, 0, 0);
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        height: 200px;
+                        }
+                        .container5 div{
+                            background-color: white;
+                            border: 5px solid rgb(95, 0, 139);
+                            margin: 10px  ;
+                            padding:20px ;
+                            font-size: 35px;
+                            width: 100px ;
+                            height: 50px ;
+                            }
+                            .container5 div:nth-child(1){
+                                height:20px ;
+                            }
+                            .container5 div:nth-child(2){
+                                height: 100px;
+                            }
+                            .container5 div:nth-child(3){
+                                height:50px ;
+                            }
+                            .container5 div:nth-child(4){
+                                height:130px ;
+                            }
+                            .container6{
+                                background-color: rgb(240, 232, 128);
+                                border: 5px solid rgb(255, 0, 0);
+                                display: flex;
+                                flex-direction: row;
+                                height: 800px;
+                                align-content: space-around;
+                                flex-wrap: wrap;
+
+
+                                }
+                                .container6 div{
+                                    background-color: white;
+                                    border: 5px solid rgb(95, 0, 139);
+                                    margin: 10px  ;
+                                    padding:20px ;
+                                    font-size: 35px;
+                                    width: 400px ;
+                                    height: 200px ;
+                                    }
