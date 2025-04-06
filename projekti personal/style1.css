@@ -1,0 +1,120 @@
+.hero-about {
+    background: url('https://images.unsplash.com/photo-1604908177522-3e0e3a2d6a1b') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #fff;
+  }
+  
+  .hero-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45); /* subtle overlay for text readability */
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+ 
+  .header {
+    background-color: #b22222;
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  .timeline {
+    border-left: 3px solid #b22222;
+    margin-left: 2rem;
+    padding-left: 2rem;
+  }
+  
+  .timeline-item {
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .timeline-year {
+    font-weight: bold;
+    color: #b22222;
+  }
+  
+  .timeline-content {
+    margin-left: 1rem;
+  }
+  
+  .staff-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .staff-card {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .staff-card img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .quote-section {
+    background-color: #f9f6f2;
+    padding: 4rem 2rem;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .quote {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .quote cite {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}

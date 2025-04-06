@@ -1,0 +1,116 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #2c2c2c;
+    background-color: #991b1b;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #b22222;
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  .hero-content {
+    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 12px;
+  }
+  .hero h2 {
+    font-size: 3rem;
+  }
+  .hero p {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+  }
+  .btn {
+    background-color: #b22222;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background-color: #991b1b;
+  }
+  
+  /* Section */
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .max-width {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Menu Grid */
+  .menu-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 0 20px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .card h4 {
+    margin: 1rem 0 0.5rem;
+  }
+  .card p {
+    padding: 0 1rem 1rem;
+    color: #555;
+  }
+  
+  /* Contact */
+  .contact {
+    background-color: #f8f1ec;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
