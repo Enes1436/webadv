@@ -1,0 +1,81 @@
+body{
+    background: linear-gradient(to right, rgb(4, 0, 255), gold);
+}
+a[href="https://digitalschool.eu/ "]{
+    color: brown;
+    }
+    p[class*="ds"] {
+      background: blue; 
+      color: aqua;
+    padding: 20px;
+     }
+    
+    
+    div[id~="ds"]{
+    background: blue;
+        color: red;
+    padding:20px
+    }
+    img[title^="blue"]{
+        border: 2px solid blue;
+    }
+    h1[class|="heading"]{
+    background:purple ;
+    color: blueviolet;
+    padding: 20px;
+    }
+    input[placeholder $="name"]{
+        border: 2px solid blue;
+    }
+    input[reandonly]{
+        border: 2px solid gold;
+    }
+    .container{
+        background-color: rgb(240, 219, 128);
+        border: 5px solid red;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        }
+        .container div{
+        background-color: white;
+        border: 5px solid darkblue;
+        margin: 10px  ;
+        padding:20px ;
+        font-size: 35px;
+        width: 100px ;
+        height: 35px ;
+        }
+        .container div:nth-child(1){
+            flex-grow: 8;
+        }
+        .container div:nth-child(2){
+            order: 3;
+        }
+        .container div:nth-child(3){
+            flex-grow: 8;
+        }
+        .container div:nth-child(4){
+            order: 1;
+        }
+        .container2 div{
+            background-color: white;
+            border: 5px solid rgb(0, 139, 132);
+            margin: 10px  ;
+            padding:20px ;
+            font-size: 35px;
+            width: 100px ;
+            height: 35px ;
+            }
+        .container2 div:nth-child(1){
+            flex-grow: 8;
+        }
+    .container2 div:nth-child(1){
+        flex-grow: 3;
+    }
+    .container2 div:nth-child(1){
+        flex-grow: 3;
+    }
+    .container2 div:nth-child(1){
+        flex-grow: 1;
+    }
