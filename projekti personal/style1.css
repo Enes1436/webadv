@@ -118,3 +118,177 @@
     padding: 40px 20px;
     text-align: center;
 }
+/* === Reset & Base === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fffdf8;
+  color: #333;
+  line-height: 1.6;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* === Header === */
+.header {
+  background-color: #d62828;
+  padding: 15px 0;
+}
+.header .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.logo {
+  color: white;
+  font-size: 1.8rem;
+}
+
+/* === Hero === */
+.hero-about {
+  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;
+  padding: 100px 20px;
+  color: white;
+  text-align: center;
+}
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 60px 20px;
+}
+
+/* === Sections === */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.max-width {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* === Timeline === */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+.timeline-item {
+  background: #fff;
+  border-left: 4px solid #d62828;
+  padding: 20px;
+  position: relative;
+}
+.timeline-year {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #d62828;
+  margin-bottom: 10px;
+}
+.timeline-content h4 {
+  margin-bottom: 5px;
+}
+
+/* === Staff Grid === */
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.staff-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.staff-card h4 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+.staff-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* === Quote Section === */
+.quote-section {
+  background-color: #f4f1ea;
+  padding: 50px 20px;
+}
+.quote {
+  font-size: 1.4rem;
+  font-style: italic;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+}
+.quote cite {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #d62828;
+}
+
+/* === Footer === */
+.footer {
+  background-color: #d62828;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+/* === Responsive Tweaks === */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .nav a {
+    margin-right: 0;
+  }
+  .hero-about {
+    padding: 60px 20px;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .quote {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.4rem;
+  }
+  .timeline-year {
+    font-size: 1rem;
+  }
+}
