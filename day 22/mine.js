@@ -1,49 +1,49 @@
-document.write("Hello world")
+document.write("Hello World");
 
-var x =10 ;
-var name ="ENES"
+var x = 10;
+var name = "Enes";
 
-document.write(x)
-console.log(name)
+document.write(x);
+console.log(name);
 
-var a = 50+50
-console.log(a)
+var a = 50 + 50;
+console.log(a);
 
 var y = 50;
-var z =100;
-var yz =y+z;
+var z = 100;
+var yz = y + z;
 
-console.log(yz)
-
-
-var n
+console.log(yz);
 
 
+var n = 99;
+n++;
+console.log(n);
 
+var o = 50
+o--;
+console.log(o);
 
-
-
-
-var p =20;
-var q = p ** 2;
+var p=20;
+var q=p ** 2;
 console.log(q);
 
-var m =15;
-m+=5; // 15+5=20
+var m = 15;
+m+=5;
 console.log(m);
 
 
-var r =35;
+var r = 35;
 r*=5;
-console.log(r)
+console.log(r);
 
 
-var num1 =5
-var num2 =10
-var num3 =5
-
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
+var num1 = 5;
+var num2 = 10;
+var num3 = 10;
+console.log(num1 != num2)
+console.log(num1 == num3)
+console.log(num1 > num3)
+console.log(num1 >= num3)
+console.log(num1 < num2)
+console.log(num1 <= num2)
