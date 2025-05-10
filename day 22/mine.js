@@ -57,7 +57,7 @@ console.log(fullName)
 
 
 var test = "Test123"
-console.log('Hello from ${Test}')
+console.log(`Hello from ${Test}`)
 
 
 var age =22;
