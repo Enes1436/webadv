@@ -32,13 +32,13 @@ v_text.style.padding ="20px";
 }
 
 
-var btn_circle =document.getElementById(btn_circle)
-var btn_rect =document.getElementById(btn_rect)
-var btn_triangel =document.getElementById(btn_triangel)
+var btn_circle =document.getElementById('btn_circle')
+var btn_rect =document.getElementById('btn_rect')
+var btn_triangel =document.getElementById('btn_triangel')
 
-var btn_circle =document.getElementById(circle)
-var btn_rect =document.getElementById(rect)
-var btn_triangel =document.getElementById(triangel)
+var btn_circle =document.getElementById('circle')
+var btn_rect =document.getElementById('rect')
+var btn_triangel =document.getElementById('triangel')
 
 
 btn_circle.onclick = function(){

@@ -6,8 +6,16 @@ background-color:red ;
 }
 
 .shape_rect{
-
-
-
+width: 200px;
+height: 100px;
+background-color: red;
 }
-
+.shape_triangel{
+width:0 ;
+height:0 ;
+border-left: 50px solid transparent;
+border-bottom: 100px solid red;
+}
+.hide{
+    display: none;
+}
