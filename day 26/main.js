@@ -36,8 +36,7 @@ button1.addEventListener("click", function() {
     ans.innerHTML = parseInt (input1.value) + parseInt (input2.value);
 })
 
-button.onclick= function(){
-    
+button.onclick= function(){ 
     if(input.value>10){
         text.innerHTML = "Input value is bigger than 10";
     }else if(input.value==10){
