@@ -46,6 +46,17 @@ $('#btn4').click(function(){
 })
 
 
+
+
+
+$('#squery').click(function(){
+  $('#squery').animate({
+   'left': '+=50px',
+   'opacity': 0.25,
+   'fontSize': '50px'
+  })
+})
+
 /*
  click
  keydown
@@ -55,5 +66,15 @@ $('#btn4').click(function(){
  focus
  resize
 */
+
+$('#sort').sortable();
+
+
+$(function(){
+  $('#accordion').accordion();
+})
+
+
+$("tabs").tabs();
 
 
